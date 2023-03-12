@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div><h3>Marque as alternativas que mais se adequam ao seu perfil</h3></div>
+    <div><input type="checkbox" onclick="addItem('A', this)"><label>Gosto de receber palavras de afirmação.</label></div>
+    <div><input type="checkbox" onclick="addItem('E', this)"><label>Gosto de ser abraçado.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Gosto de passar tempo a sós com alguém especial para mim.</label></div>
+    <div><input type="checkbox" onclick="addItem('D', this)"><label>Sinto-me amado quando alguém me oferece ajuda prática.</label></div>
+    <div><input type="checkbox" onclick="addItem('C', this)"><label>Gosto quando me dão presentes.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Gosto de visitas sem pressa com amigos e entes queridos.</label></div>
+    <div><input type="checkbox" onclick="addItem('D', this)"><label>Sinto-me amado quando as pessoas fazem coisas para ajudar-me.</label></div>
+    <div><input type="checkbox" onclick="addItem('E', this)"><label>Sinto-me amado quando as pessoas me tocam.</label></div>
+    <div><input type="checkbox" onclick="addItem('E', this)"><label>Sinto-me amado quando alguém que amo ou admiro me rodeia com o braço.</label></div>
+    <div><input type="checkbox" onclick="addItem('C', this)"><label>Sinto-me amado quando recebo um presente de alguém que amo e admiro.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Gosto de sair com amigos e entes queridos.</label></div>
+    <div><input type="checkbox" onclick="addItem('E', this)"><label>Gosto de bater palma com palma ou ficar de mãos dadas com pessoas especiais para mim.</label></div>
+    <div><input type="checkbox" onclick="addItem('C', this)"><label>Símbolos visíveis de amor (presentes) são importantes para mim.</label></div>
+    <div><input type="checkbox" onclick="addItem('A', this)"><label>Sinto-me amado quando as pessoas me afirmam.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Gosto de sentar perto das pessoas a quem aprecio.</label></div>
+    <div><input type="checkbox" onclick="addItem('A', this)"><label>Gosto de que me digam que sou atraente/bonito.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Gosto de passar tempo com amigos e entes queridos.</label></div>
+    <div><input type="checkbox" onclick="addItem('C', this)"><label>Gosto de receber presentinhos de amigos e entes queridos.</label></div>
+    <div><input type="checkbox" onclick="addItem('A', this)"><label>Palavras de aceitação são importantes para mim.</label></div>
+    <div><input type="checkbox" onclick="addItem('D', this)"><label>Sei que alguém me ama quando ele ou ela me ajuda.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Gosto de estar junto e fazer coisas com amigos e entes queridos.</label></div>
+    <div><input type="checkbox" onclick="addItem('A', this)"><label>Gosto quando me dizem palavras bondosas.</label></div>
+    <div><input type="checkbox" onclick="addItem('D', this)"><label>O que a pessoa faz me afeta mais que aquilo que ela diz.</label></div>
+    <div><input type="checkbox" onclick="addItem('E', this)"><label>Os abraços me fazem sentir participante e apreciado.</label></div>
+    <div><input type="checkbox" onclick="addItem('A', this)"><label>Aprecio o louvor e tento evitar as críticas.</label></div>
+    <div><input type="checkbox" onclick="addItem('C', this)"><label>Vários presentes pequenos significam mais para mim que um grande.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Sinto-me íntimo de alguém quando estamos conversando ou fazendo coisas juntos.</label></div>
+    <div><input type="checkbox" onclick="addItem('E', this)"><label>Sinto-me mais perto dos amigos e entes queridos quando eles me tocam com freqüência.</label></div>
+    <div><input type="checkbox" onclick="addItem('A', this)"><label>Gosto de que as pessoas elogiem minhas realizações.</label></div>
+    <div><input type="checkbox" onclick="addItem('D', this)"><label>Sei que as pessoas me amam quando fazem coisas para mim que por si mesmas não fariam.</label></div>
+    <div><input type="checkbox" onclick="addItem('E', this)"><label>Gosto de ser tocado quando amigos e entes queridos passam perto de mim.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Gosto quando as pessoas me ouvem e mostram interesse genuíno no que estou dizendo.</label></div>
+    <div><input type="checkbox" onclick="addItem('D', this)"><label>Sinto-me amado quando amigos e entes queridos me ajudam em trabalhos e projetos.</label></div>
+    <div><input type="checkbox" onclick="addItem('C', this)"><label>Gosto realmente de receber presentes de amigos e entes queridos.</label></div>
+    <div><input type="checkbox" onclick="addItem('A', this)"><label>Gosto que as pessoas elogiem minha aparência.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Sinto-me amado quando as pessoas tomam tempo para entender meus sentimentos.</label></div>
+    <div><input type="checkbox" onclick="addItem('E', this)"><label>Sinto-me seguro quando uma pessoa especial toca em mim.</label></div>
+    <div><input type="checkbox" onclick="addItem('D', this)"><label>Atos de serviço fazem com que me sinta amado.</label></div>
+    <div><input type="checkbox" onclick="addItem('D', this)"><label>Aprecio as muitas coisas que pessoas especiais fazem para mim.</label></div>
+    <div><input type="checkbox" onclick="addItem('C', this)"><label>Gosto de receber presentes que pessoas especiais fazem para mim.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Aprecio realmente o sentimento que tenho quando alguém me dá total atenção.</label></div>
+    <div><input type="checkbox" onclick="addItem('D', this)"><label>Aprecio realmente o sentimento que tenho quando alguém me presta algum ato de serviço.</label></div>
+    <div><input type="checkbox" onclick="addItem('C', this)"><label>Sinto-me amado quando uma pessoa comemora meu aniversário com um presente.</label></div>
+    <div><input type="checkbox" onclick="addItem('A', this)"><label>Sinto-me amado quando uma pessoa comemora meu aniversario com palavras significativas.</label></div>
+    <div><input type="checkbox" onclick="addItem('C', this)"><label>Sei o que a pessoa está pensando de mim quando me dá um presente.</label></div>
+    <div><input type="checkbox" onclick="addItem('D', this)"><label>Sinto-me amado quando a pessoa me ajuda nas tarefas diárias.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Aprecio quando alguém me ouve com paciência e não me interrompe.</label></div>
+    <div><input type="checkbox" onclick="addItem('C', this)"><label>Aprecio quando alguém lembra de dias especiais com um presente.</label></div>
+    <div><input type="checkbox" onclick="addItem('D', this)"><label>Gosto de saber que os entes queridos estão preocupados em ajudar-me nas tarefas diárias.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Gosto de fazer viagens longas com alguém que é especial para mim.</label></div>
+    <div><input type="checkbox" onclick="addItem('E', this)"><label>Gosto de beijar ou ser beijado por pessoas de minha intimidade.</label></div>
+    <div><input type="checkbox" onclick="addItem('C', this)"><label>Receber presentes sem qualquer razão especial me deixa contente.</label></div>
+    <div><input type="checkbox" onclick="addItem('A', this)"><label>Gosto que me digam que sou querido.</label></div>
+    <div><input type="checkbox" onclick="addItem('B', this)"><label>Gosto que a pessoa olhe para mim enquanto falamos.</label></div>
+    <div><input type="checkbox" onclick="addItem('C', this)"><label>Presentes de um amigo ou ente querido são sempre especiais para mim.</label></div>
+    <div><input type="checkbox" onclick="addItem('E', this)"><label>Sinto-me bem quando um amigo ou ente querido me toca.</label></div>
+    <div><input type="checkbox" onclick="addItem('D', this)"><label>Sinto-me amado quando alguém faz com entusiasmo o que pedi.</label></div>
+    <div><input type="checkbox" onclick="addItem('A', this)"><label>Sinto-me amado quando dizem o quanto me apreciam.</label></div>
+    <div><input type="checkbox" onclick="addItem('E', this)"><label>Preciso ser tocado todos os dias.</label></div>
+    <div><input type="checkbox" onclick="addItem('A', this)"><label>Preciso de palavras de afirmação todos os dias</label></div>
+    <br><br>
+    <div>
+        <button onclick="getResult()">Ver resultado</button>
+    </div>
+    <br><br>
+    
+    <div class="table-responsive">
+        <h2>
+            Seu resultado
+        </h2>
+        <table class="table table-primary">
+            <thead>
+                <tr>
+                    <th scope="col">Linguagem</th>
+                    <th scope="col">Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Palavras de Afirmação</td>
+                    <td id="A">0</td>
+                </tr>
+                <tr>
+                    <td>Qualidade de Tempo</td>
+                    <td id="B">0</td>
+                </tr>
+                <tr>
+                    <td>Presentes</td>
+                    <td id="C">0</td>
+                </tr>
+                <tr>
+                    <td>Gestos de Serviço</td>
+                    <td id="D">0</td>
+                </tr>
+                <tr>
+                    <td>Toque Físico</td>
+                    <td id="E">0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</br>
+</br>
+<div>
+    <h2>Depois que tiver feito o teste</h2>
+Que linguagem de amor recebeu mais pontos? Esta é sua principal linguagem de amor. Se os totais de pontos para duas linguagens de amor forem os mesmos, você é “bilíngue” e tem duas linguagens principais de amor.
+
+Se tiver uma linguagem secundária de amor, ou uma cujos pontos estejam próximos da principal, isto significa que ambas as expressões de amor são importantes para você. O ponto mais alto para qualquer linguagem de amor é doze.
+
+Embora você possa ter marcado uma linguagem mais que as outras, tente não desconsiderar essas outras linguagens do amor.
+
+Seus amigos e entes queridos podem expressar amor desse modo e valerá a pena compreender isto a respeito deles.
+
+Assim também, será bom que quem você ama saiba qual é sua linguagem de amor e expresse afeto por você da forma que você interprete como amor.
+
+<h2>Pontos emocionais</h2>
+Cada vez que você ou eles falam a linguagem um do outro, vocês marcam pontos emocionais um com o outro.
+
+É claro que ninguém vai manter uma lista de pontos. O resultado de falar a linguagem de amor de uma pessoa é mais um sentimento de que “esta pessoa me entende e se importa comigo”.
+
+Com o passar do tempo, este sentimento se multiplica em uma sensação mais forte de conexão.
+
+Assim como identificar e falar as linguagens de amor de um amigo ou ente querido fortalece o relacionamento, não fazer isso pode deixar um amigo ou ente querido com o sentimento de que você não o ama.
+
+Quando as pessoas não expressam amor de modo a ser percebido como tal, seus esforços,embora sinceros, são de alguma forma desperdiçados. Isto pode frustrar tanto aquele que dá amor como o suposto receptor.
+
+Você pode ter sido inconscientemente culpado de falar uma linguagem de amor “estranha” no passado a alguém que amava.
+
+Compreender o conceito das linguagens de amor pode ajudar você a saber como expressar eficazmente seus sentimentos para que sejam recebidos e interpretados como deseja.
+
+Se ainda não fez isso, encoraje as pessoas especiais em sua vida descobrirem suas linguagens do amor. Em seguida, discuta suas respectivas linguagens de amor e use este critério para melhorar seus relacionamentos.
+</div>
+</body>
+<script src="./script.js"></script>
+</html>

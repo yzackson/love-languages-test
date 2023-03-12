@@ -1,0 +1,12 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    min-height:100vh;
+}
+
+div {
+    max-width: 80vw;
+    margin: auto
+}
